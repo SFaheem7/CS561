@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 href = []
 homepagecount = 0
 count = 0
-
+mypu = 0
 
 def crw(url):
     line = requests.get(url)
